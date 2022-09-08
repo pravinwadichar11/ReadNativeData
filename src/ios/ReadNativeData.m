@@ -17,7 +17,7 @@
     NSString *param1 = [[command.arguments objectAtIndex:0] valueForKey:@"param1"];
  
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-    NSString *textToLoad = [prefs stringForKey:@param1];
+    NSString *textToLoad = [prefs stringForKey:param1];
 
 
     NSString *total = textToLoad;
